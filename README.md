@@ -1,1 +1,1 @@
-# -Assignment---007-3-ArmstrongNumber-
+# Assignment007-3-ArmstrongNumber-
