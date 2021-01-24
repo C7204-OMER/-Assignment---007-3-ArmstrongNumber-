@@ -1,0 +1,12 @@
+num = input("Enter a number : ")
+while not num.isdigit():
+  print("It is an invalid entry. Don't use non-numeric, float, or negative values!")
+  num = input("Enter a number : ")
+x = 0
+for i in num:
+  number = int(i)**len(num)
+  x += number
+if (int(num) == x):
+  print(f'{num} is an Armstrong Number')
+else:
+  print(f'{num} is not an Armstrong Number')
